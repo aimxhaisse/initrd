@@ -5,7 +5,7 @@ FROM armbuild/ubuntu:vivid
 RUN apt-get update \
  && apt-get upgrade -q -y \
  && apt-get install -q -y \
-   curl \
+   golang \
    ntpdate \
    udhcpc \
    wget \
